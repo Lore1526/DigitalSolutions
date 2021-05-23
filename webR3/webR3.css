@@ -1,0 +1,33 @@
+/* EJERCICIO 5.2 */
+
+.contenedor {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    flex-wrap: wrap;
+}
+
+.contenedorDescripcion {
+    display: flex;
+    width: 600px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.video {
+    width: 500px;
+}
+
+.videoTitulo {
+    width: 100%;
+    text-align: center;
+    margin-top: 15%;
+    margin-right: 35%;
+}
+
+.videoDescripcion {
+    width: 50%;
+    text-align: center;
+    margin-bottom: 10%;
+    margin-right: 35%;
+}
